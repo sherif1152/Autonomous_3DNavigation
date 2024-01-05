@@ -21,7 +21,7 @@ The `gmapping` package is utilized for laser-based Simultaneous Localization and
 The robot's localization within the mapped environment is achieved through the implementation of the Adaptive Monte Carlo Localization `AMCL` algorithm. This ensures precise tracking of the robot's position as it moves through the environment.
 
 ### Navigation Stack
-To enable autonomous navigation, the Navigation Stack is employed. This sophisticated software stack facilitates the robot in autonomously navigating through its surroundings, avoiding obstacles, and reaching predefined target locations. The core of this stack is the `move_base` package, which integrates with the A* algorithm for path planning.
+To enable autonomous navigation, the Navigation Stack is employed. This sophisticated software stack facilitates the robot in autonomously navigating through its surroundings, avoiding obstacles, and reaching predefined target locations. The core of this stack is the `move_base` package, which integrates with the `A*` algorithm for path planning.
 
 ###  Voxel Layer
 To enhance the perception of the environment, the project incorporates the use of a Spatio-Temporal Voxel Layer. This layer enables the representation of both spatial and temporal aspects of the environment in voxel form, providing a richer understanding of the surroundings.
