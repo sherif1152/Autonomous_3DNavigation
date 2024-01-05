@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- Arguments 
+  <arg name="map_file" default="$(find navigtion_pkg)/maps/map.yaml"/> 
+  -->
+
+  <!-- Map server 
+  <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)"/>
+-->
+  <!-- AMCL -->
+  <include file="$(find navigtion_pkg)/launch/amcl.launch"/>
+  
+  <!-- move_base -->
+  <include file="$(find navigtion_pkg)/launch/move_base.launch"/>
+
+ <arg name="open_rviz" default="true"/>
+  <group if="$(arg open_rviz)"> 
+    <node pkg="rviz" type="rviz" name="rviz" required="true"
+          args="-d $(find navigtion_pkg)/rviz/nav.rviz"/>
+  </group>
+</launch>
