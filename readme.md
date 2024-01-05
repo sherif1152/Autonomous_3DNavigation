@@ -46,7 +46,7 @@ To use these robots, follow these installation steps:
 
 ```
 $ mkdir -p ~/robot_ws/src
-$ cd ~/catkin_ws/src 
+$ cd ~/robot_ws/src 
 ```
 
 2. Clone this repository to your local machine:
