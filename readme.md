@@ -52,11 +52,11 @@ $ cd ~/robot_ws/src
 2. Clone this repository to your local machine:
 
 ```bash
-  git clone https://github.com/sherif1152/Autonomous_3DNavigation.git
+git clone https://github.com/sherif1152/Autonomous_3DNavigation.git
 ```
 3. Install Intel RealSense Gazebo ROS plugin and model
 ```bash
-  git clone https://github.com/SyrianSpock/realsense_gazebo_plugin.git
+git clone https://github.com/SyrianSpock/realsense_gazebo_plugin.git
 ```
 4. Install Spatio-Temporal Voxel Layer
 ```
