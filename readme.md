@@ -1,4 +1,4 @@
-# Autonomous Mobile Robot with RealSense D455 Camera for 3D Navigation
+# Autonomous Mobile Robot with RealSense D455 camera for 3D Navigation
 
 ## Table of Contents
 - [Description](#description)
